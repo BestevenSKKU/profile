@@ -75,11 +75,18 @@ nav strong {
 .area.contacts-area ul li:last-child {
   border: none;
 }
+.area.contacts-area ul li .title {
+  display: flex;
+  margin-right: 8px;
+}
 .area.contacts-area ul li .title i {
   font-size: 1.2rem;
 }
 .area.contacts-area ul li .title strong {
   margin-left: 7px;
+}
+.area.contacts-area ul li a {
+  overflow: hidden;
 }
 .area.description-area {
 }
