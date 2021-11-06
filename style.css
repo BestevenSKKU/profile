@@ -1,0 +1,111 @@
+/* body {
+  background-color: #0d1117;
+} */
+
+* {
+  color: #fff;
+}
+a,
+a:link,
+a:visited {
+  text-decoration-line: none;
+  color: #8b949e;
+}
+a:hover,
+a:active {
+  color: #0d58da;
+  font-weight: bold;
+}
+a.mail,
+a.mail:link,
+a.mail:hover,
+a.mail:visited,
+a.mail:active {
+  color: #fff;
+  font-weight: normal;
+}
+nav {
+  height: 50px;
+  padding-left: 20px;
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+}
+nav strong {
+  color: #58a6ff;
+}
+.area {
+  background: #47515c;
+  margin: 13px 0;
+}
+.area.profile-area h4 {
+  color: #c9d1d9;
+  font-weight: bold;
+}
+.area.profile-area .comment {
+  color: #838995;
+}
+.profile-area .profile-img-area {
+  margin: 20px 0;
+  background: rgb(204, 204, 204);
+  width: 60%;
+  display: inline;
+  text-align: center;
+}
+.profile-area .profile-img-area img {
+  width: 100%;
+}
+
+.area.contacts-area {
+}
+.area.contacts-area ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+}
+.area.contacts-area ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 2px solid #212529;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.area.contacts-area ul li:last-child {
+  border: none;
+}
+.area.contacts-area ul li .title i {
+  font-size: 1.2rem;
+}
+.area.contacts-area ul li .title strong {
+  margin-left: 7px;
+}
+.area.description-area {
+}
+
+.description-area table {
+  margin-bottom: 0;
+}
+.description-area table tr {
+  border-bottom: 2px solid #212529;
+}
+.description-area table tr th,
+.description-area table tr td {
+  display: inline-flex;
+  border: none;
+  align-items: center;
+  height: 50px;
+}
+.description-area table tr th {
+  width: 25%;
+  padding-left: 20px;
+}
+.area.empty-area {
+  min-height: 300px;
+  margin-top: 0;
+}
+.inner-row {
+  width: 100%;
+  margin: auto;
+}
