@@ -36,6 +36,7 @@ nav strong {
 .area {
   background: #47515c;
   margin: 13px 0;
+  box-shadow: 2px 2px 7px #000;
 }
 .area.profile-area h4 {
   color: #c9d1d9;
